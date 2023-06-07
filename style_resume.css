@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px auto;
+    width: 750px;
+    background-color: #333D51;
+}
+
+header {
+    height: 20vh;
+    position: center;
+    background-image: url(img/02.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    padding: 10px 0;
+    font-size: 30px;
+    color: #354649;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+.top_edite{
+    padding-top: 5px;
+}
+
+main {
+    background-color: #F4F3EA;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+div {
+    padding: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+dt {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+dd {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+footer {
+    background-color: #F4F3EA;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.columns_one {
+    column-count: 2;
+}
+
+.columns_two {
+    column-count: 2;
+}
+
+a {
+    color: black;
+}
+
+.working_experiences ul ul{
+    padding-left: 20px;
+}
+
+.working_experiences ul ul dd{
+    padding-left: 20px;
+}
+
+.projects_activity ol{
+    padding-left: 20px;
+}
+
+/*
+.autobiography {
+    background-color: aliceblue;
+    width: 650px;
+    border-radius: 20px;
+    padding: 0% 10px;
+}
